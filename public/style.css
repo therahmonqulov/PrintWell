@@ -318,3 +318,83 @@ video {
     margin-left: -5px;
     color: #00000020;
 }
+
+/* main-info-box */
+.main-info-box {
+    padding: 40px 0px;
+    background: linear-gradient(to bottom, #0e6bcf, #001733);
+}
+
+.main-info-box-container {
+    display: flex;
+    gap: 20px;
+}
+
+.main-info-box-tex-text-1 {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 16px;
+    color: #ffffff40;
+}
+
+.main-info-box-tex-text-2 {
+    margin: 15px 0px;
+    color: #FFFFFF;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.main-info-box-tex-text-3 {
+    width: 80%;
+    color: #fff;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: 'Unbounded', sans-serif;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+.main-info-box-img img {
+    width: 700px;
+}
+
+.main-info-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+}
+
+.main-info-boxes-box {
+    padding: 16px 24px;
+    background-color: #ffffff10;
+}
+
+.main-info-boxes-box-p1 {
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 56px;
+}
+
+.main-info-boxes-box-p2 {
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color: #fff;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.main-info-box-last-text {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.main-info-box-last-text p {
+    font-weight: 300;
+    line-height: 20px;
+    font-family: 'Unbounded', sans-serif;
+    color: #ffffff80;
+    font-size: 11px;
+}
