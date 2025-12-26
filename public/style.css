@@ -211,7 +211,6 @@ video {
     padding: 70px 0px;
     margin-top: 100px;
     background: linear-gradient(to bottom, #d5e7ff2b, #D5EAFF);
-    /* background-color: #D5EAFF; */
 }
 
 .main-card-boxes {
@@ -284,7 +283,31 @@ video {
     font-weight: 300;
 }
 
+.main-card-boxes {
+    position: relative;
+}
+
 .main-card-boxes-3-img img {
     margin: 50px 0px;
     width: 400px;
+}
+
+.main-card-boxes-3-num {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.main-card-boxes-3-num p span {
+    font-weight: 600;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 32px;
+}
+
+.main-card-boxes-3-num-1 {
+    color: #007CFF;
+}
+
+.main-card-boxes-3-num-2 {
+    color: #00000020;
 }
