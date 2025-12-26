@@ -1,0 +1,24 @@
+:root {
+    --black: #000;
+    ---white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.header {
+    padding: 16px 0px;
+    background: linear-gradient(to right, #003E81, #001733);
+}
+
+.header .header_logo img {
+    width: 88px;
+}
