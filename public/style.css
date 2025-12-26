@@ -526,13 +526,15 @@ video {
 }
 
 .asoschi-img img {
-    width: 320px;
+    width: 369px;
 }
 
 .asoschi-text {
+    width: 100%;
+    position: relative;
     border-radius: 8px;
     padding: 32px;
-    background: linear-gradient(to bottom, #FFFFFF, #D5EAFF);
+    background: linear-gradient(to bottom, #d5eaff2d, #D5EAFF);
 }
 
 .asoschi-text-p1 {
@@ -548,4 +550,35 @@ video {
     font-family: 'Unbounded', sans-serif;
     font-weight: 700;
     font-size: 48px;
+}
+
+.asoschi-text-ti {
+    position: absolute;
+    left: 60px;
+    bottom: 45px;
+    display: ruby;
+}
+
+.asoschi-text-ti img {
+    width: 20px;
+}
+
+.asoschi-text-ti img:first-child {
+    top: 5px;
+    left: -28px;
+    position: absolute;
+}
+
+.asoschi-text-ti img:last-child {
+    position: absolute;
+    bottom: 30px;
+}
+
+.asoschi-text-ti p {
+    width: 510px;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: 'Unbounded', sans-serif;
+
 }
