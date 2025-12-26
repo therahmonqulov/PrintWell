@@ -401,7 +401,8 @@ video {
 
 /* main-support */
 .main-support {
-    margin-top: 100px;
+    background-color: #F1F5F9;
+    padding-top: 100px;
 }
 
 .main-support-nav {
@@ -434,4 +435,78 @@ video {
     font-family: 'Unbounded', sans-serif;
     font-weight: 300;
     font-size: 14px;
+}
+
+/* mijoz section */
+.mijoz {
+    margin-top: 50px;
+}
+
+.mijoz__box {
+    padding: 25px 10px 15px 10px;
+    overflow: hidden;
+}
+
+.mijoz-row {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 14px;
+}
+
+/* ASOSIY TRACK */
+.mijoz-track {
+    display: flex;
+    width: fit-content;
+    animation: scroll-left 22s linear infinite;
+}
+
+/* 2-qator – o‘ngga va sekin */
+.mijoz-row.slow .mijoz-track {
+    animation-name: scroll-right;
+    animation-duration: 28s;
+}
+
+/* 3-qator – chapga va tez */
+.mijoz-row.fast .mijoz-track {
+    animation-name: scroll-left;
+    animation-duration: 18s;
+}
+
+.mijoz-logo {
+    background-color: #fff;
+    flex-shrink: 0;
+    min-width: 160px;
+    height: 70px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 14px;
+}
+
+.mijoz-logo img {
+    max-width: 120px;
+    max-height: 32px;
+    object-fit: contain;
+}
+
+/* ANIMATSIYALAR */
+@keyframes scroll-left {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes scroll-right {
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
 }
