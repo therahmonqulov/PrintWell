@@ -223,11 +223,24 @@ video {
 }
 
 .main-card-boxes-2 {
+    position: relative;
     width: 40%;
 }
 
 .main-card-boxes-3 {
     width: 40%;
+}
+
+.main-card-boxes-2 button {
+    border-radius: 4px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to right, #3D9AFF, #0063DC);
+    padding: 10px 110px;
+    position: absolute;
+    bottom: 30px;
 }
 
 .main-card-boxes-1 h2 {
