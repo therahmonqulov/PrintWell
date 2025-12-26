@@ -208,5 +208,43 @@ video {
 
 /* main-card-box */
 .main-card-box {
-    background: linear-gradient(to bottom, #FFFFFF, #D5EAFF);
+    padding: 70px 0px;
+    margin-top: 100px;
+    background: linear-gradient(to bottom, #d5e7ff2b, #D5EAFF);
+    /* background-color: #D5EAFF; */
+}
+
+.main-card-boxes {
+    display: flex;
+}
+
+.main-card-boxes-1 {
+    width: 20%;
+}
+
+.main-card-boxes-2 {
+    width: 40%;
+}
+
+.main-card-boxes-3 {
+    width: 40%;
+}
+
+.main-card-boxes-1 h2 {
+    font-family: 'Unbounded', sans-serif;
+    color: #007CFF;
+    font-size: 16px;
+}
+
+.main-card-boxes-2 p:first-child {
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.main-card-boxes-2 p:last-child {
+    margin-top: 25px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
 }
