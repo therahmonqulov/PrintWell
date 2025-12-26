@@ -222,6 +222,10 @@ video {
     width: 20%;
 }
 
+.main-card-boxes-1 a {
+    text-decoration: none;
+}
+
 .main-card-boxes-2 {
     position: relative;
     width: 40%;
@@ -404,6 +408,10 @@ video {
     background-color: #F1F5F9;
     padding-top: 100px;
     padding-bottom: 20px;
+}
+
+.main-support a {
+    text-decoration: none;
 }
 
 .main-support-nav {
