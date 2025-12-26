@@ -249,24 +249,6 @@ video {
     font-size: 16px;
 }
 
-.main-card-boxes-2 .main-card-boxes-2-p p {
-    font-weight: 300;
-    font-size: 14px;
-}
-
-.main-card-boxes-2 p:first-child {
-    font-family: 'Unbounded', sans-serif;
-    font-weight: 600;
-    font-size: 32px;
-}
-
-.main-card-boxes-2 p:last-child {
-    margin-top: 25px;
-    font-family: 'Unbounded', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-}
-
 .main-card-boxes-1-icon {
     width: 50px;
     margin: 30px 0px 0px 30px;
@@ -277,4 +259,17 @@ video {
 .main-card-boxes-1-icon img {
     padding: 10px 11px;
     width: 100%;
+}
+
+.main-card-boxes-1-p {
+    font-size: 32px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 600;
+}
+
+.main-card-boxes-2-p {
+    font-size: 14px;
+    margin-top: 25px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 300;
 }
