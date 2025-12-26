@@ -399,4 +399,39 @@ video {
     font-size: 11px;
 }
 
-/*  */
+/* main-support */
+.main-support {
+    margin-top: 100px;
+}
+
+.main-support-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-support-nav-p1 {
+    color: #000;
+    font-size: 48px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: bold;
+}
+
+.main-support-nav-p2 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #007CFF;
+    font-family: 'Unbounded', sans-serif;
+}
+
+.main-support-text {
+    margin-top: 30px;
+    width: 60%;
+}
+
+.main-support-text-p {
+    line-height: 1.5;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
