@@ -517,3 +517,35 @@ video {
         transform: translateX(0);
     }
 }
+
+/* asoschi */
+.asoschi {
+    padding: 100px 0px;
+    display: flex;
+    gap: 20px;
+}
+
+.asoschi-img img {
+    width: 100%;
+}
+
+.asoschi-text {
+    border-radius: 8px;
+    padding: 32px;
+    background: linear-gradient(to bottom, #FFFFFF, #D5EAFF);
+}
+
+.asoschi-text-p1 {
+    font-size: 18px;
+    color: #007CFF;
+    font-weight: bold;
+    font-family: 'Unbounded', sans-serif;
+}
+
+.asoschi-text-p2 {
+    margin: 30px 0px;
+    color: #000;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
