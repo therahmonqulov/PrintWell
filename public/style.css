@@ -17,7 +17,7 @@
 }
 
 .header {
-    padding: 16px 0px;
+    padding: 12px 0px;
     background: linear-gradient(to right, #003E81, #001733);
 }
 
@@ -28,7 +28,7 @@
 }
 
 .header .header_logo img {
-    width: 88px;
+    width: 80px;
 }
 
 .header_link {
@@ -39,8 +39,10 @@
     color: #fff;
     padding: 0px 14px;
     text-decoration: none;
-    font-family: Unbounded !important;
-}
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 300 !important;
+    font-size: 14px;
+}   
 
 .header_link ul {
     display: flex;
@@ -65,6 +67,50 @@
     padding-right: 10px;    
 }
 
-.header_phone span {
-    padding-bottom: 5px;    
+.header_phone a span {
+    font-family: 'Unbounded', sans-serif;
+}
+
+/* body */
+
+.body_first_text {
+    margin-top: 80px !important;
+}
+
+.body_h1 p {
+    font-weight: 700;
+    font-size: 48px;
+    font-family: 'Unbounded', sans-serif;
+}
+
+.body_h2 {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body_h2_text p {
+    font-weight: 300;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 15px;
+}
+
+.body_h2_button a {
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.body_h2_button a:first-child {
+    margin-right: 5px;
+    color: #fff;
+    background-color: #3D9AFF;
+}
+
+.body_h2_button a:last-child {
+    color: #000;
+    background-color: #f2f2f2;
 }
