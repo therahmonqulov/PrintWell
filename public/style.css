@@ -42,7 +42,7 @@
     font-family: 'Unbounded', sans-serif;
     font-weight: 300 !important;
     font-size: 14px;
-}   
+}
 
 .header_link ul {
     display: flex;
@@ -58,13 +58,13 @@
     border-left: 1px solid #fff;
 }
 
-.header_phone a{
+.header_phone a {
     display: flex;
     align-items: center;
 }
 
 .header_phone img {
-    padding-right: 10px;    
+    padding-right: 10px;
 }
 
 .header_phone a span {
@@ -130,7 +130,8 @@
 video {
     width: 100%;
     display: block;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .play-button {
@@ -170,5 +171,34 @@ video {
 }
 
 .iframe-textbox {
+    padding: 25px;
     background-color: #ECF5FF;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.iframe-textboxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.iframe-textboxes_img img {
+    font-size: 24px;
+}
+
+.iframe-textboxes_img {
+    padding: 10px 13px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.iframe-textboxes-text p {
+    font-weight: 600;
+    color: #007CFF;
+    font-size: 15px;
+    font-family: 'Unbounded', sans-serif;
 }
