@@ -293,6 +293,11 @@ video {
     width: 400px;
 }
 
+.main-card-boxes-3-img-2 img {
+    margin: 50px 0px;
+    width: 550px;
+}
+
 .main-card-boxes-3-num {
     position: absolute;
     top: 30px;
