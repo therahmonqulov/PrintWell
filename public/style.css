@@ -268,6 +268,16 @@ video {
 }
 
 .main-card-boxes-2-p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-top: 25px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 300;
+}
+
+.main-card-boxes-2-p-p {
+    line-height: 24px;
+    width: 90%;
     font-size: 14px;
     margin-top: 25px;
     font-family: 'Unbounded', sans-serif;
