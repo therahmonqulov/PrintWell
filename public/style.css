@@ -172,18 +172,21 @@ video {
 
 .iframe-textbox {
     padding: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     background-color: #ECF5FF;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-items: flex-end;
     justify-content: center;
+    gap: 60px;
 }
 
 .iframe-textboxes {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 10px;
 }
 
 .iframe-textboxes_img img {
