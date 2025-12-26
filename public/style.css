@@ -224,11 +224,12 @@ video {
 
 .main-card-boxes-2 {
     position: relative;
-    width: 40%;
+    width: 45%;
 }
 
 .main-card-boxes-3 {
-    width: 40%;
+    height: 450px;
+    width: 35%;
 }
 
 .main-card-boxes-2 button {
@@ -282,4 +283,9 @@ video {
     margin-top: 25px;
     font-family: 'Unbounded', sans-serif;
     font-weight: 300;
+}
+
+.main-card-boxes-3-img img {
+    margin: 50px 0px;
+    width: 450px;
 }
