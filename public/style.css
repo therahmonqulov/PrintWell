@@ -403,6 +403,7 @@ video {
 .main-support {
     background-color: #F1F5F9;
     padding-top: 100px;
+    padding-bottom: 20px;
 }
 
 .main-support-nav {
@@ -443,7 +444,6 @@ video {
 }
 
 .mijoz__box {
-    padding: 25px 10px 15px 10px;
     overflow: hidden;
 }
 
@@ -475,8 +475,8 @@ video {
 .mijoz-logo {
     background-color: #fff;
     flex-shrink: 0;
-    min-width: 160px;
-    height: 70px;
+    width: 200px;
+    height: 110px;
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -485,8 +485,7 @@ video {
 }
 
 .mijoz-logo img {
-    max-width: 120px;
-    max-height: 32px;
+    width: 100px;
     object-fit: contain;
 }
 
