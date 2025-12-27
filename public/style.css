@@ -756,6 +756,10 @@ form input {
     font-size: 14px;
 }
 
+form input:focus {
+    border: 1px solid #fff;
+}
+
 form input::placeholder {
     color: rgba(255, 255, 255, 0.6);
 }
