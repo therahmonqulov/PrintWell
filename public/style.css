@@ -369,8 +369,15 @@ video {
 }
 
 .main-info-boxes-box {
+    border-radius: 8px;
     padding: 16px 24px;
+    transition: 0.3s ease;
     background-color: #ffffff10;
+    border: 1px solid #ffffff00;
+}
+
+.main-info-boxes-box:hover {
+    border: 1px solid #fff;
 }
 
 .main-info-boxes-box-p1 {
@@ -586,7 +593,7 @@ video {
 /* faq-item */
 .faq-section {
     display: flex;
-    gap: 50px;
+    gap: 150px;
     padding: 60px 0;
 }
 
