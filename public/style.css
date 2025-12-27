@@ -195,12 +195,8 @@
         gap: 10px;
     }
 
-    .iframe-textboxes_img img {
-        font-size: 24px;
-    }
-
     .iframe-textboxes_img {
-        padding: 10px 13px;
+        padding: 15px;
         border-radius: 50%;
         background-color: #fff;
     }
@@ -208,14 +204,14 @@
     .iframe-textboxes-text p {
         font-weight: 600;
         color: #007CFF;
-        font-size: 15px;
+        font-size: 13px;
         font-family: 'Unbounded', sans-serif;
     }
 
     /* main-card-box */
     .main-card-box {
         padding: 70px 0px 80px 0px;
-        margin-top: 100px;
+        margin-top: 50px;
         background: linear-gradient(to bottom, #d5e7ff2b, #D5EAFF);
     }
 
@@ -223,30 +219,30 @@
         display: flex;
     }
 
-    .main-card-boxes-1 {
-        width: 100%;
-    }
-
     .main-card-boxes-1 a {
         text-decoration: none;
     }
 
+    .main-card-boxes-2 {
+        padding: 15px;
+    }
+
     .main-card-boxes-2 button {
+        margin-top: 30px;
         border-radius: 4px;
         font-weight: 600;
         color: #fff;
         cursor: pointer;
         border: none;
         background: linear-gradient(to right, #3D9AFF, #0063DC);
-        padding: 10px 110px;
-        position: absolute;
-        bottom: 30px;
+        padding: 20px;
     }
 
     .main-card-boxes-1 h2 {
         font-family: 'Unbounded', sans-serif;
         color: #007CFF;
         font-size: 16px;
+        padding-left: 10px;
     }
 
     .main-card-boxes-1-icon {
@@ -262,13 +258,13 @@
     }
 
     .main-card-boxes-1-p {
+        margin-top: 15px;
         font-size: 18px;
         font-family: 'Unbounded', sans-serif;
         font-weight: 600;
     }
 
     .main-card-boxes-2-p {
-        line-height: 24px;
         font-size: 12px;
         margin-top: 25px;
         font-family: 'Unbounded', sans-serif;
@@ -276,9 +272,8 @@
     }
 
     .main-card-boxes-2-p-p {
-        line-height: 24px;
         width: 100%;
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 25px;
         font-family: 'Unbounded', sans-serif;
         font-weight: 300;
@@ -290,14 +285,22 @@
         position: relative;
     }
 
-    .main-card-boxes-3-img img {
-        margin: 50px 0px;
-        width: 400px;
+    .main-card-boxes-3-mob {
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
 
-    .main-card-boxes-3-img-2 img {
-        margin: 50px 0px;
-        width: 550px;
+    .main-card-boxes-3-mob img {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .main-card-boxes-3 .main-card-boxes-3-img-2 {
+        display: none;
+    }
+
+    .main-card-boxes-3-img {
+        display: none;
     }
 
     .main-card-boxes-3-num {
@@ -309,7 +312,7 @@
     .main-card-boxes-3-num p span {
         font-weight: 600;
         font-family: 'Unbounded', sans-serif;
-        font-size: 32px;
+        font-size: 20px;
     }
 
     .main-card-boxes-3-num-1 {
@@ -861,7 +864,12 @@
 
 @media screen and (min-width:1130px) and (max-width: 2000px) {
 
-    /*  */
+    /* telfonda konidigan lekin kompda korinmaydigan qisim */
+    .main-card-boxes-3-mob {
+        display: none;
+    }
+
+    /* comp */
     .main-card-boxes-comp {
         display: none;
     }
@@ -1091,15 +1099,15 @@
     }
 
     .main-card-boxes-2 button {
+        width: 300px;
+        position: absolute;
+        bottom: 30px;
         border-radius: 4px;
         font-weight: 600;
         color: #fff;
         cursor: pointer;
         border: none;
-        background: linear-gradient(to right, #3D9AFF, #0063DC);
-        padding: 10px 110px;
-        position: absolute;
-        bottom: 30px;
+        background: linear-gradient(to right, #3D9AFF, #0063dcc6);
     }
 
     .main-card-boxes-1 h2 {
@@ -1143,6 +1151,10 @@
         font-weight: 300;
     }
 
+    .main-card-boxes-2-pad {
+        padding-bottom: 130px;
+    }
+
     .main-card-boxes {
         position: relative;
     }
@@ -1150,11 +1162,6 @@
     .main-card-boxes-3-img img {
         margin: 50px 0px;
         width: 400px;
-    }
-
-    .main-card-boxes-3-img-2 img {
-        margin: 50px 0px;
-        width: 550px;
     }
 
     .main-card-boxes-3-num {
@@ -1543,8 +1550,6 @@
         width: 45%;
         display: grid;
         justify-content: center;
-
-
     }
 
     .order-right {
