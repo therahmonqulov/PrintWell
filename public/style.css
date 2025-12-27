@@ -846,9 +846,14 @@ button:hover {
 
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-bottom-text {
+    color: #899EB2;
     padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
-    font-size: 14px;
-    opacity: 0.85;
+    font-size: 16px;
+    opacity: 0.80;
 }
