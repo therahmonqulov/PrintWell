@@ -80,7 +80,7 @@
 
     .body_h1 p {
         font-weight: 700;
-        font-size: 43px;
+        font-size: 24px;
         font-family: 'Unbounded', sans-serif;
     }
 
@@ -95,7 +95,11 @@
         margin-top: 2px;
         font-weight: 300;
         font-family: 'Unbounded', sans-serif;
-        font-size: 14px;
+        font-size: 12px;
+    }
+
+    .body_h2_button {
+        display: none;
     }
 
     .body_h2_button a {
@@ -160,6 +164,7 @@
     }
 
     .iframe_video_text {
+        display: none;
         position: absolute;
         bottom: 15px;
         left: 20px;
@@ -173,21 +178,20 @@
     }
 
     .iframe-textbox {
-        padding: 25px;
+        padding: 20px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         background-color: #ECF5FF;
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         align-items: flex-end;
         justify-content: center;
-        gap: 60px;
+        gap: 24px;
     }
 
     .iframe-textboxes {
         display: flex;
         align-items: center;
-        justify-content: center;
         gap: 10px;
     }
 
