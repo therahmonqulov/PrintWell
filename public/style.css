@@ -86,8 +86,12 @@
     }
 
     /* header-menu */
+    #headerMenu {
+        display: none;
+    }
+
     .header-menu {
-        margin-top: -7px;
+        margin-top: 73px;
         z-index: 1000;
         position: fixed;
         background-color: #012249;
@@ -163,7 +167,7 @@
 
     /* body */
     .body_first_text {
-        margin-top: 80px !important;
+        padding-top: 130px !important;
     }
 
     .body_h1 p {

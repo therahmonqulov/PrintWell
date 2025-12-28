@@ -1,3 +1,12 @@
+// header
+const headerMenu = document.querySelector("#headerMenu")
+const headerLinkButton = document.querySelector("#headerLinkButton")
+
+headerLinkButton.addEventListener("click", () => {
+    headerMenu.style.display = "block"
+})
+
+
 // video
 const video = document.getElementById('myVideo');
 const playBtn = document.getElementById('playBtn');
