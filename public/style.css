@@ -1,6 +1,6 @@
 :root {
     --black: #000;
-    ---white: #fff;
+    --white: #fff;
 }
 
 * {
@@ -86,8 +86,15 @@
     }
 
     /* header-menu */
-    #headerMenu {
-        display: none;
+    .header-menu {  
+        left: 100%;
+        transition: left 0.4s ease;
+        display: block;
+    }
+
+    /* Ko'rinadigan holat */
+    .header-menu.active {
+        left: 0;
     }
 
     .header-menu {
@@ -643,7 +650,7 @@
         gap: 10px;
     }
 
-    .asoschi-img-mob img{
+    .asoschi-img-mob img {
         width: 100%;
     }
 
@@ -807,7 +814,7 @@
         font-weight: 600;
         transition: 0.3s;
     }
-    
+
 
     .order-left {
         display: grid;
@@ -815,6 +822,7 @@
 
 
     }
+
     .order-left h2 {
         font-family: 'Unbounded', sans-serif;
         font-size: 24px;
@@ -944,7 +952,7 @@
         margin-top: 100px;
         list-style: none;
     }
-    
+
     .footer-menu li {
         margin: 20px 0px;
     }

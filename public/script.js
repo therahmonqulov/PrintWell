@@ -1,10 +1,11 @@
 // header
-const headerMenu = document.querySelector("#headerMenu")
-const headerLinkButton = document.querySelector("#headerLinkButton")
+const headerButton = document.getElementById('headerLinkButton');
+const headerMenu = document.getElementById('headerMenu');
 
-headerLinkButton.addEventListener("click", () => {
-    headerMenu.style.display = "block"
-})
+headerButton.addEventListener('click', () => {
+    headerMenu.classList.toggle('active');
+});
+
 
 
 // video
