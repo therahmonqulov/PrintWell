@@ -72,8 +72,8 @@
         font-family: 'Unbounded', sans-serif;
     }
 
-    /* body */
 
+    /* body */
     .body_first_text {
         margin-top: 80px !important;
     }
@@ -538,7 +538,15 @@
         padding: 100px 0px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        gap: 20px;
+        gap: 10px;
+    }
+
+    .asoschi-img-mob img{
+        width: 100%;
+    }
+
+    .asoschi-img {
+        display: none;
     }
 
     .asoschi-img img {
@@ -546,32 +554,30 @@
     }
 
     .asoschi-text {
+        padding: 10px 30px 20px 30px;
         width: 100%;
         position: relative;
         border-radius: 8px;
-        padding: 32px;
         background: linear-gradient(to bottom, #d5eaff2d, #D5EAFF);
     }
 
     .asoschi-text-p1 {
-        font-size: 18px;
+        font-size: 14px;
         color: #007CFF;
         font-weight: bold;
         font-family: 'Unbounded', sans-serif;
     }
 
     .asoschi-text-p2 {
-        margin: 30px 0px;
+        margin: 15px 0px 250px 0px;
         color: #000;
         font-family: 'Unbounded', sans-serif;
         font-weight: 700;
-        font-size: 48px;
+        font-size: 24px;
     }
 
     .asoschi-text-ti {
-        position: absolute;
-        left: 60px;
-        bottom: 45px;
+        margin-top: 200px;
         display: ruby;
     }
 
@@ -581,19 +587,17 @@
 
     .asoschi-text-ti img:first-child {
         top: 5px;
-        left: -28px;
-        position: absolute;
     }
 
     .asoschi-text-ti img:last-child {
         position: absolute;
-        bottom: 30px;
+        bottom: 20px;
+        right: 30px;
     }
 
     .asoschi-text-ti p {
-        width: 510px;
-        font-size: 13px;
-        line-height: 24px;
+        font-size: 12px;
+        line-height: 20px;
         font-weight: 300;
         font-family: 'Unbounded', sans-serif;
 
@@ -878,6 +882,10 @@
     }
 
     .main-info-box-mob {
+        display: none;
+    }
+
+    .asoschi-img-mob {
         display: none;
     }
 
