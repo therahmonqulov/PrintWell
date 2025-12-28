@@ -1,10 +1,20 @@
 // header
 const headerButton = document.getElementById('headerLinkButton');
 const headerMenu = document.getElementById('headerMenu');
+const headerButtonIcon = headerButton.querySelector("i");
 
 headerButton.addEventListener('click', () => {
-    headerMenu.classList.toggle('active');
+    const isOpen = headerMenu.classList.toggle('active');
+
+    if (isOpen) {
+        headerButtonIcon.classList.remove("fa-bars-staggered");
+        headerButtonIcon.classList.add("fa-xmark");
+    } else {
+        headerButtonIcon.classList.remove("fa-xmark");
+        headerButtonIcon.classList.add("fa-bars-staggered");
+    }
 });
+
 
 // video
 const video = document.getElementById('myVideo');

@@ -85,6 +85,10 @@
         border-radius: 50%;
     }
 
+    .header_link_button button i {
+        color: #fff;
+    }
+
     /* header-menu */
     .header-menu {
         left: 100%;
