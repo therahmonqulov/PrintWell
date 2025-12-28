@@ -92,7 +92,6 @@
         display: block;
     }
 
-    /* Ko'rinadigan holat */
     .header-menu.active {
         left: 0;
     }
@@ -129,7 +128,9 @@
     }
 
     .header-menu-button {
-        margin-top: 140px;
+        bottom: 20px;
+        width: 90%;
+        position: fixed;
     }
 
     .header-menu-buttons {
