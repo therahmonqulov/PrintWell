@@ -683,39 +683,37 @@
     }
 
     .order-section-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
         gap: 20px;
     }
 
+    .order-right {
+        margin-top: 15px;
+    }
+
     .order-left {
-        width: 45%;
         display: grid;
         justify-content: center;
 
 
     }
-
-    .order-right {
-        width: 50%;
-    }
-
     .order-left h2 {
         font-family: 'Unbounded', sans-serif;
-        font-size: 52px;
+        font-size: 24px;
         font-weight: 800;
     }
 
     .order-left p {
         font-family: 'Unbounded', sans-serif;
-        line-height: 20px;
+        line-height: 18px;
         font-weight: 300;
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 20px;
     }
 
     .order-logo {
+        display: none;
         margin-top: 25px;
         width: 100%;
         height: 300px;
@@ -800,9 +798,9 @@
 
     .footer-top {
         padding-top: 60px;
-        padding-bottom: 80px;
-        display: flex;
-        justify-content: space-between;
+        padding-bottom: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .footer-logo {
@@ -810,13 +808,9 @@
         width: 120px;
     }
 
-    .footer-info {
-        width: 590px;
-    }
-
     .footer-info h3 {
         font-family: 'Unbounded', sans-serif;
-        font-size: 20px;
+        font-size: 13px;
         font-weight: bold;
         margin: 0 0 15px;
     }
@@ -830,11 +824,12 @@
     }
 
     .footer-menu {
-        display: flex;
+        margin-top: 100px;
         list-style: none;
-        margin: 0;
-        padding: 0;
-        gap: 35px;
+    }
+    
+    .footer-menu li {
+        margin: 20px 0px;
     }
 
     .footer-menu a {
@@ -855,12 +850,14 @@
 
     .footer-bottom-text {
         color: #899EB2;
-        padding-top: 20px;
+        padding-top: 10px;
         padding-bottom: 20px;
-        display: flex;
-        justify-content: space-between;
         font-size: 16px;
         opacity: 0.80;
+    }
+
+    .footer-bottom-text p {
+        margin-top: 24px;
     }
 }
 
