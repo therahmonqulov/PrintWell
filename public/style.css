@@ -235,7 +235,7 @@
         cursor: pointer;
         border: none;
         background: linear-gradient(to right, #3D9AFF, #0063DC);
-        padding: 20px;
+        padding: 15px 20px;
     }
 
     .main-card-boxes-1 h2 {
@@ -345,18 +345,25 @@
         margin: 15px 0px;
         color: #FFFFFF;
         font-family: 'Unbounded', sans-serif;
-        font-size: 48px;
+        font-size: 24px;
         font-weight: bold;
     }
 
     .main-info-box-tex-text-3 {
-        width: 80%;
         color: #fff;
         font-weight: 300;
-        line-height: 24px;
+        line-height: 20px;
         font-family: 'Unbounded', sans-serif;
         margin-bottom: 30px;
-        font-size: 13px;
+        font-size: 11px;
+    }
+
+    .main-info-box-mob img {
+        width: 100%;
+    }
+
+    .main-info-box-img {
+        display: none;
     }
 
     .main-info-box-img img {
@@ -364,8 +371,9 @@
     }
 
     .main-info-boxes {
+        margin-top: 20px;
         display: grid;
-        grid-template-columns: repeat(2, 2fr);
+        grid-template-columns: repeat(1, 2fr);
         gap: 20px;
     }
 
@@ -400,7 +408,6 @@
 
     .main-info-box-last-text {
         margin-top: 20px;
-        width: 80%;
     }
 
     .main-info-box-last-text p {
@@ -529,7 +536,8 @@
     /* asoschi */
     .asoschi {
         padding: 100px 0px;
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
         gap: 20px;
     }
 
@@ -866,6 +874,10 @@
 
     /* telfonda konidigan lekin kompda korinmaydigan qisim */
     .main-card-boxes-3-mob {
+        display: none;
+    }
+
+    .main-info-box-mob {
         display: none;
     }
 
