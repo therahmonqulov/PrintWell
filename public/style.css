@@ -420,19 +420,14 @@
 
     /* main-support */
     .main-support {
+        padding-top: 40px;
+        margin-top: 60px;
         background-color: #F1F5F9;
-        padding-top: 100px;
         padding-bottom: 20px;
     }
 
     .main-support a {
         text-decoration: none;
-    }
-
-    .main-support-nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
     }
 
     .main-support-nav-p1 {
@@ -442,7 +437,16 @@
         font-weight: bold;
     }
 
+    .main-support-nav-p2-mob {
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 14px;
+        color: #007CFF;
+        font-family: 'Unbounded', sans-serif;
+    }
+
     .main-support-nav-p2 {
+        display: none;
         font-weight: 500;
         font-size: 14px;
         color: #007CFF;
@@ -454,10 +458,9 @@
     }
 
     .main-support-text-p {
-        line-height: 20px;
         font-family: 'Unbounded', sans-serif;
         font-weight: 300;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     /* mijoz section */
@@ -875,6 +878,10 @@
     }
 
     .asoschi-img-mob {
+        display: none;
+    }
+
+    .main-support-nav-p2-mob-none {
         display: none;
     }
 
