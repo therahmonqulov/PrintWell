@@ -33,7 +33,7 @@
     }
 
     .header_link {
-        display: flex;
+        display: none;
     }
 
     .header_link a {
@@ -71,6 +71,8 @@
     .header_phone a span {
         font-family: 'Unbounded', sans-serif;
     }
+
+
 
 
     /* body */
@@ -703,6 +705,20 @@
         margin-top: 15px;
     }
 
+    .order-right button {
+        width: 100%;
+        padding: 16px;
+        border: none;
+        border-radius: 6px;
+        background: linear-gradient(90deg, #4ca3ff, #007bff);
+        color: #fff;
+        font-size: 15px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: 0.3s;
+    }
+    
+
     .order-left {
         display: grid;
         justify-content: center;
@@ -778,7 +794,7 @@
         color: rgba(255, 255, 255, 0.6);
     }
 
-    button {
+    .main-card-boxes-2 button {
         width: 100%;
         padding: 16px;
         border: none;
@@ -890,6 +906,10 @@
     }
 
     .main-support-nav-p2-mob-none {
+        display: none;
+    }
+
+    .header_link_button {
         display: none;
     }
 
