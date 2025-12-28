@@ -437,7 +437,7 @@
 
     .main-support-nav-p1 {
         color: #000;
-        font-size: 48px;
+        font-size: 20px;
         font-family: 'Unbounded', sans-serif;
         font-weight: bold;
     }
@@ -450,12 +450,11 @@
     }
 
     .main-support-text {
-        margin-top: 30px;
-        width: 60%;
+        margin-top: 15px;
     }
 
     .main-support-text-p {
-        line-height: 1.5;
+        line-height: 20px;
         font-family: 'Unbounded', sans-serif;
         font-weight: 300;
         font-size: 14px;
@@ -605,18 +604,15 @@
 
     /* faq-item */
     .faq-section {
-        display: flex;
-        gap: 150px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
         padding: 60px 0;
-    }
-
-    .faq-left {
-        width: 40%;
     }
 
     .faq-left h2 {
         font-family: 'Unbounded', sans-serif;
-        font-size: 48px;
+        font-size: 24px;
         font-weight: 800;
         line-height: 1.2;
     }
@@ -628,10 +624,6 @@
         line-height: 24px;
         font-weight: 300;
         color: #000;
-    }
-
-    .faq-right {
-        width: 60%;
     }
 
     .faq-item {
