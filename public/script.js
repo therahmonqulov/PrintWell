@@ -13,16 +13,20 @@ const playBtn = document.getElementById('playBtn');
 const iframeVideoText = document.querySelector(".iframe_video_text")
 
 playBtn.addEventListener('click', () => {
-    myMobVideo.play();
     video.play();
     video.setAttribute("controls", "controls");
     playBtn.style.display = "none";
     iframeVideoText.style.display = "none"
+
+    myMobVideo.play();
+    myMobVideo.setAttribute("controls", "controls");
 });
 // Video tugaganda play tugmasi yana chiqishi
 video.addEventListener('ended', () => {
     playBtn.style.display = "flex";
     video.removeAttribute("controls");
+
+    myMobVideo.removeAttribute("controls");
 });
 
 // faq-item
