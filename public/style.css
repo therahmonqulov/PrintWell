@@ -147,13 +147,13 @@
         transform: translate(-50%, -50%);
         background: #fff;
         color: #000;
-        width: 60px;
-        height: 60px;
+        width: 35px;
+        height: 35px;
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 26px;
+        font-size: 12px;
         cursor: pointer;
         transition: 0.3s;
     }
@@ -196,16 +196,24 @@
     }
 
     .iframe-textboxes_img {
-        padding: 15px;
+        padding: 8px 10px;
         border-radius: 50%;
         background-color: #fff;
+    }
+
+    .iframe-textboxes_img img {
+        width: 25px;
     }
 
     .iframe-textboxes-text p {
         font-weight: 600;
         color: #007CFF;
-        font-size: 13px;
+        font-size: 12px;
         font-family: 'Unbounded', sans-serif;
+    }
+
+    .iframe-textboxes-text br {
+        display: none;
     }
 
     /* main-card-box */
