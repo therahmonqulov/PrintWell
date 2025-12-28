@@ -6,13 +6,14 @@ headerButton.addEventListener('click', () => {
     headerMenu.classList.toggle('active');
 });
 
-
-
 // video
 const video = document.getElementById('myVideo');
+const myMobVideo = document.querySelector(".iframe-video-mob")
 const playBtn = document.getElementById('playBtn');
 const iframeVideoText = document.querySelector(".iframe_video_text")
+
 playBtn.addEventListener('click', () => {
+    myMobVideo.play();
     video.play();
     video.setAttribute("controls", "controls");
     playBtn.style.display = "none";
