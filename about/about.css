@@ -1,7 +1,9 @@
-/* about_main */
 .about-back {
-    /* background: linear-gradient(to bottom, #002044, #ffffff); */
-    background-color: #002044;
+    background: linear-gradient(to bottom,
+            #001A3A 0%,
+            #003B7A 55%,
+            #C5D8EE 85%,
+            #FFFFFF 100%);
 }
 
 .about-first {
@@ -202,4 +204,24 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 24px;
+}
+
+/* about_faq-item */
+.about_faq-section {
+    margin-top: 120px;
+    display: flex;
+}
+
+.about_faq-left {
+    width: 40%;
+}
+
+.about_faq-right {
+    width: 60%;
+}
+
+.about_faq-left h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Unbounded', sans-serif;
 }
