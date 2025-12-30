@@ -13,7 +13,7 @@
 
 @media screen and (min-width:310px) and (max-width: 760px) {
     .container {
-        width: 90%;
+        width: 95%;
         margin: auto;
     }
 
@@ -835,9 +835,12 @@
     }
 
     /* order-section */
+    .full-order-section {
+        background: linear-gradient(to bottom, #007BFF, #001733);
+    }
+
     .order-section {
         padding: 60px 0px;
-        background: linear-gradient(180deg, #007BFF, #001733ed);
         min-height: 550px;
         color: #fff;
     }
@@ -868,9 +871,10 @@
 
     .order-left {
         display: grid;
-        justify-content: center;
+    }
 
-
+    .order-left p br {
+        display: none;
     }
 
     .order-left h2 {
@@ -880,10 +884,11 @@
     }
 
     .order-left p {
+        line-height: 14px;
+        font-size: 14px;
         font-family: 'Unbounded', sans-serif;
         line-height: 18px;
         font-weight: 300;
-        font-size: 12px;
         margin-top: 20px;
     }
 
@@ -967,7 +972,6 @@
 
     /* footer */
     .footer {
-        background: linear-gradient(to bottom, #003b71, #012a4a);
         color: #fff;
     }
 
@@ -1737,9 +1741,12 @@
     }
 
     /* order-section */
+    .full-order-section {
+        background: linear-gradient(to bottom, #007BFF, #001733);
+    }
+
     .order-section {
         padding: 60px 0px;
-        background: linear-gradient(180deg, #007BFF, #001733ed);
         min-height: 550px;
         color: #fff;
     }
@@ -1854,7 +1861,6 @@
 
     /* footer */
     .footer {
-        background: linear-gradient(to bottom, #003b71, #012a4a);
         color: #fff;
     }
 
