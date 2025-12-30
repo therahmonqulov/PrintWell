@@ -1,19 +1,21 @@
 // header
 const headerButton = document.getElementById('headerLinkButton');
 const headerMenu = document.getElementById('headerMenu');
-const headerButtonIcon = headerButton.querySelector("i");
+const openBtn = headerButton.querySelector('.menu-open');
+const closeBtn = headerButton.querySelector('.menu-close');
 
 headerButton.addEventListener('click', () => {
     const isOpen = headerMenu.classList.toggle('active');
 
     if (isOpen) {
-        headerButtonIcon.classList.remove("fa-bars-staggered");
-        headerButtonIcon.classList.add("fa-xmark");
+        openBtn.style.display = 'none';
+        closeBtn.style.display = 'block';
     } else {
-        headerButtonIcon.classList.remove("fa-xmark");
-        headerButtonIcon.classList.add("fa-bars-staggered");
+        openBtn.style.display = 'block';
+        closeBtn.style.display = 'none';
     }
 });
+
 
 
 // video

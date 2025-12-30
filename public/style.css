@@ -79,15 +79,20 @@
 
     .header_link_button button {
         outline: none;
-        padding: 11px 13px;
+        padding: 10px 12px;
         background-color: #FFFFFF1A;
         border: none;
         border-radius: 50%;
     }
 
-    .header_link_button button i {
-        color: #fff;
+    .header_link_button button img {
+        width: 24px;
     }
+
+    .header_link_button button.menu-close {
+        display: none;
+    }
+
 
     /* header-menu */
     .header-menu {
@@ -172,6 +177,7 @@
     }
 
     .header-menu-buttons-sec button {
+        font-weight: 500;
         border-radius: 4px;
         font-family: 'Unbounded', sans-serif;
         display: flex;
@@ -1129,6 +1135,7 @@
     }
 
     .header_phone a span {
+        font-weight: 500;
         font-family: 'Unbounded', sans-serif;
     }
 
