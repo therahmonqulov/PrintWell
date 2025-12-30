@@ -57,3 +57,78 @@
 .about-first_img img {
     width: 100%;
 }
+
+/* about_history */
+.about_history {
+    margin-top: 90px;
+}
+
+.about_history_text {
+    width: 47%;
+}
+
+.about_history_text_p1 {
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF33;
+}
+
+.about_history_text_p2 {
+    margin: 13px 0px;
+    font-size: 48px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.about_history_text_p3 {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Unbounded', sans-serif;
+    color: #fff;
+}
+
+.about_history_box {
+    padding-top: 64px;
+}
+
+.about_history_boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.about_history_boxes_text {
+    transition: 0.3s ease;
+    background: linear-gradient(to bottom, #FFFFFF05, #ffffff08);
+    border-radius: 8px;
+    padding: 16px 24px 55px 24px;
+    border: 1px solid transparent;
+}
+
+.about_history_boxes_text:hover {
+    border: 1px solid #fff;
+}
+
+.about_history_boxes_tex_p1 {
+    background: linear-gradient(to right, #0076FF, #95C6FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-family: 'Unbounded',
+        sans-serif;
+    font-weight: 500;
+    font-size: 58px;
+}
+
+.about_history_boxes_tex_p2 {
+    margin-top: 24px;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+}
