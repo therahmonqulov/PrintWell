@@ -141,10 +141,6 @@
     margin-top: 100px;
 }
 
-.about_sikl_text {
-    width: 45%;
-}
-
 .about_sikl_text_p1 {
     font-family: 'Unbounded', sans-serif;
     font-size: 40px;
@@ -251,7 +247,7 @@
 .about_about_faq-question h3 {
     margin: 16px 0px;
     font-family: 'Unbounded', sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
