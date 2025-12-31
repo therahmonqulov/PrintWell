@@ -142,7 +142,7 @@
 }
 
 .about_sikl_text {
-    width: 40%;
+    width: 45%;
 }
 
 .about_sikl_text_p1 {
@@ -215,15 +215,19 @@
 /* about_faq-item */
 .about_faq-section {
     margin-top: 120px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    margin-bottom: 150px;
 }
 
 .about_faq-left {
-    width: 40%;
+    width: 70%;
 }
 
 .about_faq-right {
-    width: 60%;
+    background: linear-gradient(to bottom,#FFFFFF,#D5EAFF);
+    padding: 32px;
+    border-radius: 8px;
 }
 
 .about_faq-left h2 {
@@ -232,13 +236,27 @@
     font-family: 'Unbounded', sans-serif;
 }
 
+.about_faq-left p {
+    line-height: 24px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 300;
+}
+
+.about_about_faq-item {
+    border-bottom: 1px solid #000;
+}
+
 .about_about_faq-question h3 {
+    margin: 16px 0px;
     font-family: 'Unbounded', sans-serif;
     font-size: 24px;
     font-weight: 500;
 }
 
 .about_about_faq-answer p {
+    margin-bottom: 16px;
     font-size: 16px;
     font-family: 'Unbounded', sans-serif;
     font-weight: 300;
