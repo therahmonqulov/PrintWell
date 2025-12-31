@@ -11,6 +11,17 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+.order-left-textes {
+    display: flex;
+}
+
+.order-left-textes-circus {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #62FF00;
+}
+
 @media screen and (min-width:310px) and (max-width: 760px) {
     .container {
         width: 95%;

@@ -245,7 +245,7 @@
 }
 
 .about_about_faq-item {
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid #AAD4FF;
 }
 
 .about_about_faq-question h3 {
@@ -256,7 +256,7 @@
 }
 
 .about_about_faq-answer p {
-    margin-bottom: 16px;
+    margin-bottom: 20px;
     font-size: 16px;
     font-family: 'Unbounded', sans-serif;
     font-weight: 300;
