@@ -1,10 +1,10 @@
 /* body-background */
 .about-back {
     background: linear-gradient(to bottom,
-            #001A3A 0%,
-            #003B7A 55%,
-            #C5D8EE 85%,
-            #FFFFFF 100%);
+    #011732 0%,
+    #032e5c 45%,
+    #C5D8EE 70%,
+    #FFFFFF 100%);
 }
 
 .about-first {
@@ -78,7 +78,7 @@
 }
 
 .about_history_text_p2 {
-    margin: 13px 0px;
+    margin: 5px 0px 13px 0px;
     font-size: 48px;
     font-family: 'Unbounded', sans-serif;
     font-weight: 700;
@@ -105,7 +105,7 @@
 
 .about_history_boxes_text {
     transition: 0.3s ease;
-    background: linear-gradient(to bottom, #FFFFFF05, #ffffff08);
+    background: linear-gradient(to bottom, #FFFFFF05, #ffffff12);
     border-radius: 8px;
     padding: 16px 24px 55px 24px;
     border: 1px solid transparent;
@@ -128,7 +128,7 @@
 }
 
 .about_history_boxes_tex_p2 {
-    margin-top: 24px;
+    margin-top: 16px;
     font-family: 'Unbounded', sans-serif;
     font-size: 14px;
     font-weight: 400;
