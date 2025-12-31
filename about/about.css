@@ -1,3 +1,4 @@
+/* body-background */
 .about-back {
     background: linear-gradient(to bottom,
             #001A3A 0%,
@@ -229,4 +230,16 @@
     font-size: 48px;
     font-weight: 700;
     font-family: 'Unbounded', sans-serif;
+}
+
+.about_about_faq-question h3 {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.about_about_faq-answer p {
+    font-size: 16px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 300;
 }
