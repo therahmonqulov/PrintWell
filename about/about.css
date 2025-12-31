@@ -233,8 +233,8 @@
 }
 
 .about_faq-left p {
-    line-height: 24px;
     margin-top: 16px;
+    line-height: 24px;
     font-size: 16px;
     font-family: 'Unbounded', sans-serif;
     font-weight: 300;
@@ -244,15 +244,19 @@
     border-bottom: 2px solid #AAD4FF;
 }
 
+.about_about_faq-item:last-child {
+    border-bottom: none;
+}
+
 .about_about_faq-question h3 {
-    margin: 16px 0px;
+    margin: 25px 0px 16px 0px;
     font-family: 'Unbounded', sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
 }
 
 .about_about_faq-answer p {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     font-size: 16px;
     font-family: 'Unbounded', sans-serif;
     font-weight: 300;
