@@ -329,7 +329,10 @@
     }
 
     .iframe-textboxes_img {
-        padding: 8px 10px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        padding: 8px;
         border-radius: 50%;
         background-color: #fff;
     }
