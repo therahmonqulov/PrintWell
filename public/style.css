@@ -811,6 +811,10 @@
         padding: 20px 0;
     }
 
+    .faq-answer p br {
+        display: none;
+    }
+
     .faq-question {
         display: flex;
         justify-content: space-between;
@@ -1013,6 +1017,10 @@
         margin: 0 0 15px;
     }
 
+    .footer-info h3 br {
+        display: none;
+    }
+
     .footer-info p {
         font-family: 'Unbounded', sans-serif;
         font-size: 11px;
@@ -1200,7 +1208,7 @@
     .body_h2_button a:first-child {
         margin-right: 5px;
         color: #fff;
-        background: linear-gradient(to right,#3d9bffe3,#0063dcd7);
+        background: linear-gradient(to right, #3d9bffe3, #0063dcd7);
     }
 
     .body_h2_button a:last-child {
@@ -1622,6 +1630,24 @@
         }
     }
 
+    /* Hover bo‘lganda animatsiyani to‘xtatish */
+    .mijoz-track:hover {
+        animation-play-state: paused;
+    }
+
+    /* Logo hover effekti */
+    .mijoz-logo {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Cursor borganda */
+    .mijoz-logo:hover {
+        transform: translate(6px) scale(0.9);
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+    }
+
+
     /* asoschi */
     .asoschi {
         padding: 100px 0px;
@@ -1637,7 +1663,7 @@
         width: 100%;
         position: relative;
         border-radius: 8px;
-        padding: 32px;
+        padding: 16px;
         background: linear-gradient(to bottom, #d5eaff2d, #D5EAFF);
     }
 
@@ -1749,7 +1775,6 @@
     }
 
     .faq-answer p {
-        width: 70%;
         font-weight: 300;
         font-size: 14px;
         color: #000;
@@ -1846,12 +1871,11 @@
         font-family: 'Unbounded', sans-serif;
         width: 100%;
         padding: 16px;
-        border-radius: 4px;
-        border: 1px solid rgba(255, 255, 255, 0.4);
         background: rgba(255, 255, 255, 0.1);
         color: #fff;
         margin-bottom: 20px;
         font-size: 14px;
+        border: 1px solid transparent;
     }
 
     form input:focus {
@@ -1902,20 +1926,16 @@
         width: 120px;
     }
 
-    .footer-info {
-        width: 590px;
-    }
-
     .footer-info h3 {
         font-family: 'Unbounded', sans-serif;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: bold;
         margin: 0 0 15px;
     }
 
     .footer-info p {
         font-family: 'Unbounded', sans-serif;
-        font-size: 11px;
+        font-size: 13px;
         font-weight: 300;
         line-height: 1.6;
         opacity: 0.7;
