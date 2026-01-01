@@ -280,6 +280,7 @@
     }
 
     .play-button {
+        padding: 1px 0px 0px 1px;
         position: absolute;
         top: 50%;
         left: 50%;
