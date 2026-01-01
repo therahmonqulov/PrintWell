@@ -527,6 +527,10 @@
         font-size: 11px;
     }
 
+    .main-info-box-tex-text-3 br {
+        display: none;
+    }
+
     .main-info-box-mob img {
         width: 100%;
     }
@@ -620,6 +624,10 @@
         font-size: 14px;
         color: #007CFF;
         font-family: 'Unbounded', sans-serif;
+    }
+
+    .main-support-text br {
+        display: none;
     }
 
     .main-support-text {
@@ -1181,17 +1189,18 @@
     }
 
     .body_h2_button a {
+        font-size: 14px;
         cursor: pointer;
         font-weight: 600;
         border-radius: 5px;
         text-decoration: none;
-        padding: 13px 15px;
+        padding: 13px 40px 14px 40px;
     }
 
     .body_h2_button a:first-child {
         margin-right: 5px;
         color: #fff;
-        background-color: #3D9AFF;
+        background: linear-gradient(to right,#3d9bffe3,#0063dcd7);
     }
 
     .body_h2_button a:last-child {
@@ -1276,11 +1285,15 @@
     }
 
     .iframe-textboxes_img img {
-        font-size: 24px;
+        width: 24px;
     }
 
     .iframe-textboxes_img {
-        padding: 10px 13px;
+        border: 1px solid #CEE7FF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
         border-radius: 50%;
         background-color: #fff;
     }
@@ -1288,13 +1301,14 @@
     .iframe-textboxes-text p {
         font-weight: 600;
         color: #007CFF;
-        font-size: 15px;
+        font-size: 13px;
+        font-weight: 700;
         font-family: 'Unbounded', sans-serif;
     }
 
     /* main-card-box */
     .main-card-box {
-        padding: 70px 0px 80px 0px;
+        padding: 50px 0px 80px 0px;
         margin-top: 100px;
         background: linear-gradient(to bottom, #d5e7ff2b, #D5EAFF);
     }
@@ -1312,6 +1326,7 @@
     }
 
     .main-card-boxes-2 {
+        padding-top: 35px;
         position: relative;
         width: 40%;
     }
@@ -1415,7 +1430,7 @@
 
     .main-info-box-container {
         display: flex;
-        gap: 20px;
+        gap: 16px;
     }
 
     .main-info-box-tex-text-1 {
@@ -1433,7 +1448,6 @@
     }
 
     .main-info-box-tex-text-3 {
-        width: 80%;
         color: #fff;
         font-weight: 300;
         line-height: 24px;
@@ -1513,7 +1527,7 @@
 
     .main-support-nav-p1 {
         color: #000;
-        font-size: 48px;
+        font-size: 40px;
         font-family: 'Unbounded', sans-serif;
         font-weight: bold;
     }
@@ -1527,7 +1541,6 @@
 
     .main-support-text {
         margin-top: 30px;
-        width: 60%;
     }
 
     .main-support-text-p {
