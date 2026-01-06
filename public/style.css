@@ -1427,7 +1427,7 @@
     }
 
     .mobs-buttons {
-        margin-top: 20px;
+        margin-top: 40px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
@@ -1440,7 +1440,7 @@
         outline: none;
         text-decoration: none;
         text-align: center;
-
+        font-size: clamp(40px, 2vw, 70px)
     }
 
     .mobs-buttons a:first-child {
@@ -1484,10 +1484,13 @@
         padding: 15px 20px;
     }
 
+    .main-card-boxes-1 {
+        font-size: clamp(15 px, 1vw, 40px);
+    }
+
     .main-card-boxes-1 h2 {
         font-family: 'Unbounded', sans-serif;
         color: #007CFF;
-        font-size: 16px;
         padding-left: 10px;
     }
 
@@ -1505,7 +1508,7 @@
 
     .main-card-boxes-1-p {
         margin-top: 15px;
-        font-size: 18px;
+        font-size: clamp(40px, 1.8vw, 70px);
         font-family: 'Unbounded', sans-serif;
         font-weight: 700;
     }
