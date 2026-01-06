@@ -95,7 +95,7 @@
     .service_first_text_p1 {
         font-size: 42px;
     }
-    
+
     .products-grid-n1,
     .products-grid-n2 {
         grid-template-columns: repeat(3, 1fr);
@@ -209,7 +209,8 @@
     }
 
     .product-card {
-        height: 200px; /* Mobil uchun balandroq qilib, rasm yaxshi ko'rinsin */
+        height: 200px;
+        /* Mobil uchun balandroq qilib, rasm yaxshi ko'rinsin */
     }
 
     .product-image {
