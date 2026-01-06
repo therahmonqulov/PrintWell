@@ -1381,7 +1381,7 @@
     }
 
     .iframe-textbox {
-        padding: 20px;
+        padding: 40px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         background-color: #ECF5FF;
@@ -1396,26 +1396,29 @@
         width: 75%;
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 25px;
     }
 
     .iframe-textboxes_img {
         display: flex;
         justify-content: center;
         align-self: center;
-        padding: 8px;
+        padding: 25px;
         border-radius: 50%;
         background-color: #fff;
     }
 
     .iframe-textboxes_img img {
-        width: 20px;
+        width: clamp(50px, 8vw, 70px);
+    }
+
+    .iframe-textboxes-text {
+        font-size: clamp(35px, 2.3vw, 70px);
     }
 
     .iframe-textboxes-text p {
         font-weight: 700;
         color: #007CFF;
-        font-size: 12px;
         font-family: 'Unbounded', sans-serif;
     }
 
