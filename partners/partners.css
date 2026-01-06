@@ -92,9 +92,12 @@
 
 /* Tablets va kichik laptops (992px) */
 @media (max-width: 992px) {
+    .partners_first {
+        padding-top: 110px;
+    }
+
     .partners_second {
         grid-template-columns: 1fr;
-        text-align: center;
     }
 
     .partners_second_text_p1 {
@@ -127,11 +130,11 @@
     }
 
     .partners_second_text_p1 {
-        font-size: 110px;
+        font-size: 130px;
     }
 
     .partners_second_text_p2 {
-        font-size: 28px;
+        font-size: 30px;
     }
 
     .partners_second {
@@ -140,7 +143,7 @@
     }
 
     .partners_ad {
-        padding: 80px 20px;
+        padding: 70px 20px;
     }
 }
 
@@ -151,22 +154,27 @@
     }
 
     .partners_first_text_p2 {
+        margin: 10px 0px;
         font-size: 15px;
-        padding: 0 20px;
     }
 
     .partners_second_text_p1 {
-        font-size: 90px;
+        font-size: 96px;
     }
 
     .partners_second_text_p2 {
-        font-size: 24px;
+        color: #00000028;
+        font-size: 56px;
         line-height: 1.3;
         padding: 20px 0;
     }
 
-    .partners_second_img img {
-        width: 90%;
+    .partners_second_img {
+        display: none;
+    }
+
+    .partners_ad {
+        padding: 20px 0px;
     }
 }
 
@@ -182,15 +190,15 @@
 
     .partners_second {
         grid-template-columns: 1fr;
-        text-align: center;
     }
 
     .partners_second_text_p1 {
-        font-size: 70px;
+        font-size: 96px;
     }
 
     .partners_second_text_p2 {
-        font-size: 22px;
+        color: #00000028;
+        font-size: 56px;
     }
 
     .partners_second_img {
@@ -198,6 +206,6 @@
     }
 
     .partners_ad {
-        padding: 60px 15px;
+        padding: 20px 0px;
     }
 }
