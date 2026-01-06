@@ -22,6 +22,11 @@
     background-color: #62FF00;
 }
 
+/* footer */
+.footer_active {
+    color: #007CFF !important;
+}
+
 @media screen and (min-width:310px) and (max-width: 760px) {
     .container {
         width: 90%;
@@ -2075,9 +2080,6 @@
     }
 
     /* footer */
-    .footer_active {
-        color: #007CFF !important;
-    }
 
     .footer {
         color: #fff;
