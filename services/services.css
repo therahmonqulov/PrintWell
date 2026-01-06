@@ -4,7 +4,7 @@
 }
 
 .service_first {
-    padding-top: 130px;
+    padding-top: 60px;
 }
 
 .service_first_text_p1 {
@@ -96,6 +96,10 @@
 
 /* Max-width: 1200px */
 @media (max-width: 1200px) {
+    .service_first {
+    padding-top: 50px;
+}
+
     .service_first_text_p1 {
         font-size: 42px;
     }
