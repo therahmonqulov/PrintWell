@@ -2152,7 +2152,11 @@
     }
 }
 
-@media screen and (min-width:1130px) and (max-width: 2000px) {
+@media screen and (min-width:1130px) and (max-width: 5000px) {
+
+    .container {
+        max-width: 1900px;
+    }
 
     /* telfonda konidigan lekin kompda korinmaydigan qisim */
     .main-card-boxes-3-mob {
@@ -2643,7 +2647,11 @@
 
     /* mijoz section */
     .mijoz {
-        margin-top: 50px;
+        max-width: 1900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto 0;
     }
 
     .mijoz__box {
