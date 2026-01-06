@@ -1430,7 +1430,7 @@
         margin-top: 40px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        gap: 10px;
+        gap: 20px;
     }
 
     .mobs-buttons a {
@@ -1495,15 +1495,16 @@
     }
 
     .main-card-boxes-1-icon {
-        width: 50px;
+        width: 75px;
+        height: 75px;
         margin: 30px 0px 0px 30px;
         background-color: #EEF7FF;
         border-radius: 50%;
     }
 
     .main-card-boxes-1-icon img {
-        padding: 10px 11px;
-        width: 100%;
+        margin: 15px 0px 0px 15px;
+        width: 45px;
     }
 
     .main-card-boxes-1-p {
@@ -1564,7 +1565,7 @@
     .main-card-boxes-3-num p span {
         font-weight: 600;
         font-family: 'Unbounded', sans-serif;
-        font-size: 20px;
+        font-size: 45px;
     }
 
     .main-card-boxes-3-num-1 {
@@ -2074,6 +2075,10 @@
     }
 
     /* footer */
+    .footer_active {
+        color: #007CFF !important;
+    }
+
     .footer {
         color: #fff;
     }
