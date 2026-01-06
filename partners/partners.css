@@ -1,3 +1,7 @@
+.partners_first_img_mob {
+    display: none;
+}
+
 /* partners-first */
 .partners_first {
     padding-top: 70px;
@@ -77,6 +81,18 @@
 
 /* Large desktops (1200px va undan kichik) */
 @media (max-width: 1200px) {
+    .partners_first_img {
+        display: none;
+    }
+
+    .partners_first_img_mob {
+        display: block;
+    }
+
+    .partners_first_img_mob img {
+        width: 100%;
+    }
+
     .partners_second_text_p1 {
         font-size: 180px;
     }
@@ -92,6 +108,18 @@
 
 /* Tablets va kichik laptops (992px) */
 @media (max-width: 992px) {
+    .partners_first_img {
+        display: none;
+    }
+
+    .partners_first_img_mob {
+        display: block;
+    }
+
+    .partners_first_img_mob img {
+        width: 100%;
+    }
+
     .partners_first {
         padding-top: 110px;
     }
@@ -121,6 +149,18 @@
 
 /* Kichik tablets (768px) */
 @media (max-width: 768px) { 
+    .partners_first_img {
+        display: none;
+    }
+
+    .partners_first_img_mob {
+        display: block;
+    }
+
+    .partners_first_img_mob img {
+        width: 100%;
+    }
+
     .partners_first {
         padding-top: 100px;
     }
@@ -150,6 +190,18 @@
 
 /* Mobil (576px) */
 @media (max-width: 576px) {
+    .partners_first_img {
+        display: none;
+    }
+
+    .partners_first_img_mob {
+        display: block;
+    }
+
+    .partners_first_img_mob img {
+        width: 100%;
+    }
+
     .partners_first_text_p1 {
         font-size: 28px;
     }
@@ -182,8 +234,20 @@
 
 /* Juda kichik mobil (480px va undan kichik) */
 @media (max-width: 480px) {
+    .partners_first_img {
+        display: none;
+    }
+
+    .partners_first_img_mob {
+        display: block;
+    }
+
+    .partners_first_img_mob img {
+        width: 100%;
+    }
+
     .partners_first {
-        padding-top: 130px;
+        padding-top: 120px;
     }
 
     .partners_first_text_p1 {
