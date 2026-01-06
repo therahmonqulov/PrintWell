@@ -1,0 +1,203 @@
+/* partners-first */
+.partners_first {
+    padding-top: 70px;
+}
+
+.partners_first_text_p1 {
+    text-transform: uppercase;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.partners_first_text_p2 {
+    margin: 20px 0;
+    font-weight: 300;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 800px;
+}
+
+.partners_first_img img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* partners-second */
+.partners_second {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.partners_second_text_p1 {
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 700;
+    font-size: 215px;
+    line-height: 0.9;
+    margin: 0;
+    color: #000;
+}
+
+.partners_second_text_p2 {
+    font-family: 'Unbounded', sans-serif;
+    padding: 40px 0;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #2990FF;
+}
+
+.partners_second_img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.partners_second_img img {
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.partners_ad {
+    background-color: #F1F5F9;
+    padding: 120px 0;
+    text-align: center;
+}
+
+/* Responsive breakpoints */
+
+/* Large desktops (1200px va undan kichik) */
+@media (max-width: 1200px) {
+    .partners_second_text_p1 {
+        font-size: 180px;
+    }
+
+    .partners_second_text_p2 {
+        font-size: 36px;
+    }
+
+    .partners_second_img img {
+        width: 100%;
+    }
+}
+
+/* Tablets va kichik laptops (992px) */
+@media (max-width: 992px) {
+    .partners_second {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .partners_second_text_p1 {
+        font-size: 140px;
+    }
+
+    .partners_second_text_p2 {
+        font-size: 32px;
+        padding: 30px 0;
+    }
+
+    .partners_second_img {
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .partners_second_img img {
+        width: 80%;
+    }
+}
+
+/* Kichik tablets (768px) */
+@media (max-width: 768px) {
+    .partners_first {
+        padding-top: 100px;
+    }
+
+    .partners_first_text_p1 {
+        font-size: 36px;
+    }
+
+    .partners_second_text_p1 {
+        font-size: 110px;
+    }
+
+    .partners_second_text_p2 {
+        font-size: 28px;
+    }
+
+    .partners_second {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .partners_ad {
+        padding: 80px 20px;
+    }
+}
+
+/* Mobil (576px) */
+@media (max-width: 576px) {
+    .partners_first_text_p1 {
+        font-size: 28px;
+    }
+
+    .partners_first_text_p2 {
+        font-size: 15px;
+        padding: 0 20px;
+    }
+
+    .partners_second_text_p1 {
+        font-size: 90px;
+    }
+
+    .partners_second_text_p2 {
+        font-size: 24px;
+        line-height: 1.3;
+        padding: 20px 0;
+    }
+
+    .partners_second_img img {
+        width: 90%;
+    }
+}
+
+/* Juda kichik mobil (480px va undan kichik) */
+@media (max-width: 480px) {
+    .partners_first {
+        padding-top: 130px;
+    }
+
+    .partners_first_text_p1 {
+        font-size: 24px;
+    }
+
+    .partners_second {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .partners_second_text_p1 {
+        font-size: 70px;
+    }
+
+    .partners_second_text_p2 {
+        font-size: 22px;
+    }
+
+    .partners_second_img {
+        display: none;
+    }
+
+    .partners_ad {
+        padding: 60px 15px;
+    }
+}
