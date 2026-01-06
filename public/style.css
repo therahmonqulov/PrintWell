@@ -2152,7 +2152,7 @@
     }
 }
 
-@media screen and (min-width:1130px) and (max-width: 5000px) {
+@media screen and (min-width:1130px) {
 
     .container {
         max-width: 1900px;
