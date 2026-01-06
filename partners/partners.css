@@ -120,7 +120,7 @@
 }
 
 /* Kichik tablets (768px) */
-@media (max-width: 768px) {
+@media (max-width: 768px) { 
     .partners_first {
         padding-top: 100px;
     }
@@ -129,12 +129,13 @@
         font-size: 36px;
     }
 
-    .partners_second_text_p1 {
-        font-size: 130px;
+    .partners_first_text_p2 {
+        font-size: clamp(0px, 1.9vw, 70px);
+
     }
 
-    .partners_second_text_p2 {
-        font-size: 30px;
+    .partners_second_text_p1 {
+        font-size: 130px;
     }
 
     .partners_second {
@@ -154,8 +155,9 @@
     }
 
     .partners_first_text_p2 {
+        line-height: 20px;
         margin: 10px 0px;
-        font-size: 15px;
+        font-size: clamp(0px, 3vw, 70px);
     }
 
     .partners_second_text_p1 {
