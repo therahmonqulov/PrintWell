@@ -1470,7 +1470,7 @@
     }
 
     .main-card-boxes-2 {
-        padding: 15px;
+        padding: 40px;
     }
 
     .main-card-boxes-2 button {
@@ -1518,7 +1518,7 @@
     }
 
     .main-card-boxes-2-p {
-        font-size: 12px;
+        font-size: clamp(28px, 1.5vw, 40px);
         margin-top: 25px;
         font-family: 'Unbounded', sans-serif;
         font-weight: 300;
@@ -1526,7 +1526,7 @@
 
     .main-card-boxes-2-p-p {
         width: 100%;
-        font-size: 12px;
+        font-size: clamp(25px, 1.5vw, 40px);
         margin-top: 25px;
         font-family: 'Unbounded', sans-serif;
         font-weight: 300;
@@ -1589,7 +1589,7 @@
 
     .main-info-box-tex-text-1 {
         font-family: 'Unbounded', sans-serif;
-        font-size: 16px;
+        font-size: 20px;
         color: #ffffff40;
     }
 
@@ -1597,17 +1597,17 @@
         margin: 15px 0px;
         color: #FFFFFF;
         font-family: 'Unbounded', sans-serif;
-        font-size: 24px;
+        font-size: 50px;
         font-weight: bold;
     }
 
     .main-info-box-tex-text-3 {
         color: #fff;
         font-weight: 300;
-        line-height: 20px;
+        line-height: 24px;
         font-family: 'Unbounded', sans-serif;
         margin-bottom: 30px;
-        font-size: 11px;
+        font-size: 15px;
     }
 
     .main-info-box-tex-text-3 br {
@@ -1649,7 +1649,7 @@
         font-weight: 500;
         color: #fff;
         font-family: 'Unbounded', sans-serif;
-        font-size: 56px;
+        font-size: 100px;
     }
 
     .main-info-boxes-box-p2 {
@@ -1659,7 +1659,7 @@
         font-family: 'Unbounded', sans-serif;
         font-weight: 300;
         line-height: 24px;
-        font-size: 16px;
+        font-size: 26px;
     }
 
     .main-info-box-last-text {
@@ -1668,10 +1668,10 @@
 
     .main-info-box-last-text p {
         font-weight: 300;
-        line-height: 20px;
+        line-height: 24px;
         font-family: 'Unbounded', sans-serif;
         color: #ffffff80;
-        font-size: 11px;
+        font-size: 16px;
     }
 
     /* main-support */
@@ -1688,7 +1688,7 @@
 
     .main-support-nav-p1 {
         color: #000;
-        font-size: 20px;
+        font-size: 45px;
         font-family: 'Unbounded', sans-serif;
         font-weight: bold;
     }
@@ -1696,7 +1696,7 @@
     .main-support-nav-p2-mob {
         margin-bottom: 20px;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 20px;
         color: #007CFF;
         font-family: 'Unbounded', sans-serif;
     }
@@ -1720,7 +1720,7 @@
     .main-support-text-p {
         font-family: 'Unbounded', sans-serif;
         font-weight: 300;
-        font-size: 12px;
+        font-size: 25px;
     }
 
     /* mijoz section */
@@ -1760,8 +1760,8 @@
     .mijoz-logo {
         background-color: #fff;
         flex-shrink: 0;
-        width: 200px;
-        height: 110px;
+        width: 220px;
+        height: 130px;
         border-radius: 8px;
         display: flex;
         align-items: center;
@@ -1770,7 +1770,7 @@
     }
 
     .mijoz-logo img {
-        width: 100px;
+        width: 170px;
         object-fit: contain;
     }
 
@@ -1824,7 +1824,7 @@
     }
 
     .asoschi-text-p1 {
-        font-size: 14px;
+        font-size: 30px;
         color: #007CFF;
         font-weight: bold;
         font-family: 'Unbounded', sans-serif;
@@ -1835,7 +1835,7 @@
         color: #000;
         font-family: 'Unbounded', sans-serif;
         font-weight: 700;
-        font-size: 24px;
+        font-size: 65px;
     }
 
     .asoschi-text-ti {
@@ -1858,8 +1858,8 @@
     }
 
     .asoschi-text-ti p {
-        font-size: 12px;
-        line-height: 20px;
+        font-size: 24px;
+        line-height: 1.2;
         font-weight: 300;
         font-family: 'Unbounded', sans-serif;
 
@@ -1875,7 +1875,7 @@
 
     .faq-left h2 {
         font-family: 'Unbounded', sans-serif;
-        font-size: 24px;
+        font-size: 48px;
         font-weight: 800;
         line-height: 1.2;
     }
@@ -1883,7 +1883,7 @@
     .faq-left p {
         font-family: 'Unbounded', sans-serif;
         margin-top: 20px;
-        font-size: 12px;
+        font-size: 20px;
         font-weight: 300;
         color: #000;
     }
@@ -1906,13 +1906,13 @@
 
     .faq-question h3 {
         font-family: 'Unbounded', sans-serif;
-        font-size: 14px;
+        font-size: 27px;
         font-weight: 700;
     }
 
     .toggle-icon {
         font-weight: 300;
-        font-size: 20px;
+        font-size: 35px;
     }
 
     .faq-answer {
@@ -1924,7 +1924,7 @@
 
     .faq-answer p {
         font-weight: 300;
-        font-size: 11px;
+        font-size: 22px;
         color: #000;
         font-family: 'Unbounded', sans-serif;
     }
@@ -1966,7 +1966,7 @@
         border-radius: 6px;
         background: linear-gradient(90deg, #4ca3ff, #007bff);
         color: #fff;
-        font-size: 15px;
+        font-size: 24px;
         cursor: pointer;
         font-weight: 600;
         transition: 0.3s;
@@ -1983,15 +1983,14 @@
 
     .order-left h2 {
         font-family: 'Unbounded', sans-serif;
-        font-size: 24px;
+        font-size: clamp(58px, 4vw, 70px);
         font-weight: 800;
     }
 
     .order-left p {
-        line-height: 14px;
-        font-size: 14px;
+        line-height: 1.2;
+        font-size: clamp(24px, 2vw, 70px);
         font-family: 'Unbounded', sans-serif;
-        line-height: 18px;
         font-weight: 300;
         margin-top: 20px;
     }
@@ -2017,7 +2016,7 @@
     .order-form-box h3 {
         font-family: 'Unbounded', sans-serif;
         color: #85BEFF;
-        font-size: 24px;
+        font-size: clamp(28px, 4vw, 70px);
         margin-bottom: 25px;
         font-weight: 800;
     }
@@ -2025,12 +2024,14 @@
     form label {
         font-family: 'Unbounded', sans-serif;
         display: block;
-        font-size: 13px;
-        margin-bottom: 6px;
+        font-size: clamp(20px, 3vw, 70px);
+        margin-bottom: 10px;
         opacity: 0.9;
     }
 
     form input {
+        margin-bottom: 35px;
+        font-size: clamp(14px, 2vw, 70px);
         outline: none;
         font-family: 'Unbounded', sans-serif;
         width: 100%;
@@ -2039,8 +2040,6 @@
         border: 1px solid transparent;
         background: rgba(255, 255, 255, 0.1);
         color: #fff;
-        margin-bottom: 20px;
-        font-size: 14px;
     }
 
     form input:focus {
@@ -2058,7 +2057,7 @@
         border-radius: 6px;
         background: linear-gradient(90deg, #4ca3ff, #007bff);
         color: #fff;
-        font-size: 15px;
+        font-size: 25px;
         cursor: pointer;
         font-weight: 600;
         transition: 0.3s;
@@ -2088,14 +2087,14 @@
 
     .footer-logo {
         margin-bottom: 30px;
-        width: 120px;
+        width: 150px;
     }
 
     .footer-info h3 {
         font-family: 'Unbounded', sans-serif;
-        font-size: 13px;
+        font-size: clamp(23px, 3.7vw, 70px);
         font-weight: bold;
-        margin: 0 0 15px;
+        margin: 0 0 35px;
     }
 
     .footer-info h3 br {
@@ -2104,14 +2103,14 @@
 
     .footer-info p {
         font-family: 'Unbounded', sans-serif;
-        font-size: 11px;
+        font-size: clamp(11px, 1.8vw, 70px);
         font-weight: 300;
         line-height: 1.6;
         opacity: 0.7;
     }
 
     .footer-menu {
-        margin-top: 100px;
+        margin-top: 90px;
         list-style: none;
     }
 
@@ -2123,7 +2122,7 @@
         color: #FFFFFF;
         font-family: 'Unbounded', sans-serif;
         text-decoration: none;
-        font-size: 14px;
+        font-size: clamp(11px, 2.8vw, 70px);
         transition: 0.3s;
     }
 
