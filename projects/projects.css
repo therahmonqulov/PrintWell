@@ -39,18 +39,26 @@
 }
 
 @media (max-width: 1425px) {
+    .projects_frist {
+        padding-top: 50px;
+    }
+
     .project_box {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 1129px) {
+@media (max-width: 1130px){
     .projects_frist {
-        padding-top: 100px;
+        padding-top: 120px;
     }
 }
 
 @media (max-width: 1000px) {
+    .projects_frist {
+        padding-top: 120px;
+    }
+
     .project_boxes {
         display: flex;
         justify-content: center;
