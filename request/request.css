@@ -25,3 +25,18 @@
 .request_first_img img {
     width: 100%;
 }
+
+@media (max-width: 1130px) {
+    .request_first {
+        padding-top: 110px;
+    }
+
+    .request_first_p1 {
+        font-size: clamp(0px, 6vw, 70px);
+    }
+
+    .request_first_p2 {
+        font-size: clamp(0px, 1.99vw, 70px);
+
+    }
+}
