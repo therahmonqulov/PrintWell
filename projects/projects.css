@@ -15,3 +15,20 @@
     font-size: 16px;
     line-height: 24px;
 }
+
+/* project-box */
+.project_box {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.project_boxes {
+    border-radius: 8px;
+    background-color: #F4F4F4;
+}
+
+.project_boxes img {
+    padding: 46px 42px;
+    width: 449px;
+}
