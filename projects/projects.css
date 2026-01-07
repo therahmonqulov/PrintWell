@@ -48,7 +48,7 @@
     }
 }
 
-@media (max-width: 1130px){
+@media (max-width: 1130px) {
     .projects_frist {
         padding-top: 120px;
     }
@@ -74,37 +74,42 @@
     }
 }
 
+@media (max-width: 736px) {
+    .projects_frist_p1 {
+        font-size: clamp(0px, 5vw, 70px);
+    }
+
+    .projects_frist_p2 {
+        font-size: clamp(0px, 2.1vw, 70px);
+    }
+}
+
 @media (max-width: 480px) {
-    @media (max-width: 734px) {
-        .projects_frist_p1 {
-            font-family: 'Unbounded', sans-serif;
-            font-weight: 700;
-            font-size: 24px;
-        }
+    .projects_frist_p1 {
+        font-size: clamp(0px, 7vw, 70px);
+    }
 
-        .projects_frist_p2 {
-            margin-top: 10px;
-            margin-bottom: 15px;
-            font-family: 'Unbounded', sans-serif;
-            font-weight: 300;
-            font-size: 12px;
-            line-height: 24px;
-        }
+    .projects_frist_p2 {
+        font-size: clamp(0px, 3vw, 70px);
+    }
 
-        .project_box {
-            grid-template-columns: repeat(1, 1fr);
-            gap: 15px;
-        }
+    .projects_frist_p2 br {
+        display: none;
+    }
 
-        .project_boxes {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+    .project_box {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
 
-        .project_boxes img {
-            padding: 20px 22px;
-            width: 90%;
-        }
+    .project_boxes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project_boxes img {
+        padding: 20px 22px;
+        width: 90%;
     }
 }
