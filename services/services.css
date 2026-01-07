@@ -97,8 +97,8 @@
 /* Max-width: 1200px */
 @media (max-width: 1200px) {
     .service_first {
-    padding-top: 50px;
-}
+        padding-top: 50px;
+    }
 
     .service_first_text_p1 {
         font-size: 42px;
@@ -134,7 +134,7 @@
     }
 
     .service_first_text_p2 {
-        font-size: 15px;
+        font-size: clamp(0px, 2.1vw, 70px);
     }
 
     .service_product {
@@ -236,8 +236,8 @@
     }
 
     .service_first_text_p2 {
-        font-size: 14px;
-        line-height: 22px;
+        font-size: clamp(0px, 2.1vw, 70px);
+        line-height: 1.5;
     }
 
     .service_product {
