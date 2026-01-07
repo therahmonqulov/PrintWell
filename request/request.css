@@ -26,6 +26,10 @@
     width: 100%;
 }
 
+.request_first_img_mob {
+    display: none;
+}
+
 @media (max-width: 1130px) {
     .request_first {
         padding-top: 110px;
@@ -37,6 +41,35 @@
 
     .request_first_p2 {
         font-size: clamp(0px, 1.99vw, 70px);
+    }
+}
 
+@media (max-width: 768px) {
+    .request_first {
+        padding-top: 150px;
+    }
+
+    .request_first_p2 {
+        margin-top: 20px;
+        line-height: 1.3;
+        font-size: clamp(0px, 2.99vw, 70px);
+    }
+
+    .request_first_p2 br {
+        display: none;
+    }
+
+    .request_first_img {
+        display: none;
+    }
+
+    .request_first_img_mob {
+        margin-top: 25px;
+        margin-bottom: 100px;
+        display: block;
+    }
+
+    .request_first_img_mob img {
+        width: 100%;
     }
 }
