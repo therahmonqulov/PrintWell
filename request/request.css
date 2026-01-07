@@ -1,0 +1,27 @@
+.request_first {
+    padding-top: 50px;
+}
+
+.request_first_p1 {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 700;
+}
+
+.request_first_p2 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 16px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 300;
+}
+
+.request_first_img {
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+.request_first_img img {
+    width: 100%;
+}
