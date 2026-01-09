@@ -32,6 +32,19 @@
     color: #007CFF !important;
 }
 
+body a {
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+body button {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.header-menu-link a{
+    font-family: 'Unbounded', sans-serif !important;
+}
+
 @media screen and (min-width:210px) and (max-width: 760px) {
     .container {
         width: 90%;
@@ -901,6 +914,7 @@
     }
 
     .order-right button {
+        font-family: Arial, Helvetica, sans-serif;
         width: 100%;
         padding: 16px;
         border: none;
@@ -1971,6 +1985,7 @@
     }
 
     .order-right button {
+        font-family: Arial, Helvetica, sans-serif;
         width: 100%;
         padding: 16px;
         border: none;
@@ -2953,6 +2968,19 @@
         font-size: 24px;
         margin-bottom: 25px;
         font-weight: 800;
+    }
+
+    .order-right button {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        padding: 16px;
+        border: none;
+        border-radius: 6px;
+        background: linear-gradient(90deg, #4ca3ff, #007bff);
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
     }
 
     form label {
