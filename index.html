@@ -13,8 +13,10 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Unbounded:wght@200..900&display=swap"
     rel="stylesheet">
 
-
-    <link rel="stylesheet" href="./public/style.css">
+    <link rel="stylesheet" href="./public/style.css" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="./public/style.css" />
+    </noscript>
 
     <title>PrintWell</title>
 </head>
