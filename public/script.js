@@ -3,7 +3,6 @@ const headerButton = document.getElementById('headerLinkButton');
 const headerMenu = document.getElementById('headerMenu');
 const openBtn = headerButton.querySelector('.menu-open');
 const closeBtn = headerButton.querySelector('.menu-close');
-
 headerButton.addEventListener('click', () => {
     const isOpen = headerMenu.classList.toggle('active');
 
@@ -15,8 +14,6 @@ headerButton.addEventListener('click', () => {
         closeBtn.style.display = 'none';
     }
 });
-
-
 
 // video
 const video = document.getElementById('myVideo');
@@ -43,18 +40,14 @@ video.addEventListener('ended', () => {
 
 // faq-item
 const faqItems = document.querySelectorAll(".faq-item");
-
 faqItems.forEach((item) => {
     const icon = item.querySelector(".toggle-icon");
-
     item.addEventListener("click", () => {
         const isActive = item.classList.contains("active");
-
         faqItems.forEach((el) => {
             el.classList.remove("active");
             el.querySelector(".toggle-icon").textContent = "-";
         });
-
         if (!isActive) {
             item.classList.add("active");
             icon.textContent = "+";
