@@ -2246,7 +2246,8 @@ body button {
         color: #fff;
         padding: 0px 10px;
         text-decoration: none;
-        font-family: 'Unbounded', sans-serif;
+        font-family: 'Unbounded', sans-serif !important;
+        font-weight: 400;
         font-size: 13px;
     }
 
@@ -3076,7 +3077,8 @@ body button {
 
     .footer-menu a {
         color: #FFFFFF;
-        font-family: 'Unbounded', sans-serif;
+        font-family: 'Unbounded', sans-serif !important;
+        font-weight: 400;
         text-decoration: none;
         font-size: 14px;
         transition: 0.3s;
