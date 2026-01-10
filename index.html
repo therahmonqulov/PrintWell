@@ -19,7 +19,11 @@
     </noscript>
 
     <!-- css-link -->
-    <link rel="stylesheet" href="./public/style.css">
+    <!-- <link rel="stylesheet" href="./public/style.css"> -->
+    <link rel="stylesheet" href="./public/style.css" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="./public/style.css" />
+    </noscript>
     <title>PrintWell</title>
 </head>
 
