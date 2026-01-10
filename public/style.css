@@ -10,6 +10,29 @@
     font-family: 'Montserrat';
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/montserrat-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;          /* eng muhimi shu! */
+}
+
+@font-face {
+  font-family: 'Unbounded';
+  src: url('/fonts/unbounded-300.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Unbounded';
+  src: url('/fonts/unbounded-600.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 
 .header_link a:hover {
     transition: 0.3s ease;
