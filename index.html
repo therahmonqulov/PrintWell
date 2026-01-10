@@ -20,6 +20,21 @@
 
     <link rel="preload" as="image" href="./media/video-perevyu-mob.avif" fetchpriority="high">
 
+    <style>
+        .video-container {
+            aspect-ratio: 16 / 9;
+            background: #eee;
+            position: relative;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .iframe-video-mob {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+
     <!-- css-link -->
     <link rel="stylesheet" href="./public/style.css" />
     <title>PrintWell</title>
@@ -51,12 +66,6 @@
                         </a>
                     </div>
                 </div>
-                <!-- <div class="header_link_button" id="headerLinkButton">
-                    <button>
-                        <i class="fa-solid fa-bars-staggered"></i>
-                    </button>
-                </div> -->
-
                 <div class="header_link_button" id="headerLinkButton">
                     <!-- menu ochish -->
                     <button class="menu-open">
@@ -118,8 +127,8 @@
                     <video class="iframe-video" id="myVideo" poster="./media/video-perevyu.png">
                         <source src="./media/YouTub.mp4" type="video/mp4">
                     </video>
-                    <video class="iframe-video-mob" poster="./media/video-perevyu-mob.avif" fetchpriority="high">
-                        <source src="./media/video.mp4" type="video/mp4">
+                    <video class="iframe-video-mob" poster="./media/video-perevyu-mob.avif" fetchpriority="high" preload="metadata">
+                        <source src="./media/YouTub.mp4" type="video/mp4">
                     </video>
                     <div class="play-button" id="playBtn">
                         <i class="fa-solid fa-play"></i>
