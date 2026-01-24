@@ -13,9 +13,8 @@
 /* Font yuklanishini silliqroq qilish */
 @font-face {
   font-family: 'Montserrat';
-  src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
-       url('../fonts/Montserrat-Regular.woff') format('woff');
-  font-display: swap;   /* allaqachon bor bo'lsa ham, qayta tekshiring */
+  src: url('../fonts/Montserrat-Regular.woff2') format('woff2');
+  font-display: swap; 
 }
 
 /* Videolarga will-change qo'shish (ba'zida yordam beradi) */
