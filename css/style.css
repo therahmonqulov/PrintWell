@@ -10,25 +10,6 @@
     font-family: 'Montserrat';
 }
 
-/* Font yuklanishini silliqroq qilish */
-@font-face {
-  font-family: 'Montserrat';
-  src: url('../fonts/Montserrat-Regular.woff2') format('woff2');
-  font-display: swap; 
-}
-
-/* Videolarga will-change qo'shish (ba'zida yordam beradi) */
-.iframe-video,
-.iframe-video-mob {
-  will-change: transform, opacity;
-}
-
-/* Accordion uchun max-height o'rniga height: auto + JS bilan aniq balandlik */
-.faq-item.active .faq-answer {
-  height: auto;          /* transition ni saqlab qolish uchun */
-  max-height: none;
-}
-
 .header_link a:hover {
     transition: 0.3s ease;
     color: #007BFF !important;
