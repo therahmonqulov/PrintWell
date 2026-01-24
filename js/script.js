@@ -1,62 +1,101 @@
-// --- Header ---
+// ================================================
+// Header mobil menu toggle
+// ================================================
 const headerButton = document.getElementById('headerLinkButton');
-const headerMenu = document.getElementById('headerMenu');
-const openBtn = headerButton?.querySelector('.menu-open');
-const closeBtn = headerButton?.querySelector('.menu-close');
+const headerMenu   = document.getElementById('headerMenu');
 
 if (headerButton && headerMenu) {
-    headerButton.addEventListener('click', () => {
-        const isOpen = headerMenu.classList.toggle('active');
-        // display: block/none o'rniga klass orqali boshqarish tezroq ishlaydi
+    headerButton.addEventListener('click', (e) => {
+        // agar bosilgan joy button ichida bo'lmasa ham ishlamasligi uchun
+        if (!e.target.closest('button')) return;
+
+        headerMenu.classList.toggle('active');
+        
+        // display ni JS da o'zgartirish o'rniga CSS da boshqarish tavsiya etiladi:
+        // .header-menu.active ~ #headerLinkButton .menu-open  { display: none; }
+        // .header-menu.active ~ #headerLinkButton .menu-close { display: block; }
+        
+        // Agar CSS da qilish imkoni bo'lmasa, quyidagi ikki qatorni saqlashingiz mumkin:
+        const openBtn  = headerButton.querySelector('.menu-open');
+        const closeBtn = headerButton.querySelector('.menu-close');
+        
         if (openBtn && closeBtn) {
-            openBtn.style.display = isOpen ? 'none' : 'block';
+            const isOpen = headerMenu.classList.contains('active');
+            openBtn.style.display  = isOpen ? 'none' : 'block';
             closeBtn.style.display = isOpen ? 'block' : 'none';
         }
     });
 }
 
-// --- Video ---
-const video = document.getElementById('myVideo');
-const myMobVideo = document.querySelector(".iframe-video-mob");
-const playBtn = document.getElementById('playBtn');
-const iframeVideoText = document.querySelector(".iframe_video_text");
+// ================================================
+// Video play tugmasi
+// ================================================
+const playBtn       = document.getElementById('playBtn');
+const desktopVideo  = document.getElementById('myVideo');
+const mobileVideo   = document.querySelector('.iframe-video-mob');
+const videoText     = document.querySelector('.iframe_video_text');
 
 if (playBtn) {
     playBtn.addEventListener('click', () => {
-        // Video mavjudligini tekshirish (Error prevent)
-        if (video) {
-            video.play();
-            video.setAttribute("controls", "controls");
+        // qaysi ekran o'lchamida ekanligiga qarab faqat bitta videoni ishga tushiramiz
+        const isMobile = window.innerWidth <= 760;
+        const activeVideo = isMobile ? mobileVideo : desktopVideo;
+
+        if (activeVideo) {
+            activeVideo.play().catch(() => {
+                // autoplay bloklangan bo'lsa xato chiqmasin
+                console.log("Video autoplay bloklandi");
+            });
+            activeVideo.setAttribute('controls', 'controls');
         }
-        if (myMobVideo) {
-            myMobVideo.play();
-            myMobVideo.setAttribute("controls", "controls");
-        }
-        
-        playBtn.style.display = "none";
-        if (iframeVideoText) iframeVideoText.style.display = "none";
+
+        playBtn.style.display = 'none';
+        if (videoText) videoText.style.display = 'none';
     });
 }
 
-// --- FAQ Item (Optimallashtirilgan) ---
-const faqItems = document.querySelectorAll(".faq-item");
+// ================================================
+// FAQ Accordion – optimallashtirilgan versiya
+// ================================================
+document.querySelectorAll('.faq-item').forEach(item => {
+    const question = item.querySelector('.faq-question');
+    if (!question) return;
 
-faqItems.forEach((item) => {
-    item.addEventListener("click", () => {
-        const isActive = item.classList.contains("active");
+    question.addEventListener('click', () => {
+        const willBeActive = !item.classList.contains('active');
 
-        // Barcha elementlarni yopish
-        faqItems.forEach((el) => {
-            el.classList.remove("active");
-            const icon = el.querySelector(".toggle-icon");
-            if (icon) icon.textContent = "+"; // Yopiq holatda +
+        // Faqat hozir ochiq bo'lganlarni yopamiz (barchasini emas)
+        // Bu forced reflow ni kamaytiradi
+        document.querySelectorAll('.faq-item.active').forEach(el => {
+            if (el !== item) {
+                el.classList.remove('active');
+                const icon = el.querySelector('.toggle-icon i');
+                if (icon) icon.className = 'fa-solid fa-plus';
+            }
         });
 
-        // Agar bosilgani avval ochiq bo'lmagan bo'lsa, uni ochish
-        if (!isActive) {
-            item.classList.add("active");
-            const activeIcon = item.querySelector(".toggle-icon");
-            if (activeIcon) activeIcon.textContent = "-"; // Ochiq holatda -
+        // Yangi holatni o'rnatamiz
+        if (willBeActive) {
+            item.classList.add('active');
+            const icon = item.querySelector('.toggle-icon i');
+            if (icon) icon.className = 'fa-solid fa-minus';
+        } else {
+            item.classList.remove('active');
+            const icon = item.querySelector('.toggle-icon i');
+            if (icon) icon.className = 'fa-solid fa-plus';
         }
     });
+});
+
+// ================================================
+// Qo'shimcha: sahifa yuklanganda faqat birinchi FAQ ochiq bo'lishini xohlasangiz
+// (ixtiyoriy)
+// ================================================
+document.addEventListener('DOMContentLoaded', () => {
+    const firstItem = document.querySelector('.faq-item');
+    if (firstItem) {
+        firstItem.classList.add('active');
+        const icon = firstItem.querySelector('.toggle-icon i');
+        if (icon) icon.className = 'fa-solid fa-minus';
+    }
 });
