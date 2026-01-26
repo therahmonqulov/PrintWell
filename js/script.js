@@ -1,6 +1,4 @@
-// ================================================
 // Header mobil menu toggle
-// ================================================
 const headerButton = document.getElementById('headerLinkButton');
 const headerMenu   = document.getElementById('headerMenu');
 
@@ -27,9 +25,7 @@ if (headerButton && headerMenu) {
     });
 }
 
-// ================================================
 // Video play tugmasi
-// ================================================
 const playBtn       = document.getElementById('playBtn');
 const desktopVideo  = document.getElementById('myVideo');
 const mobileVideo   = document.querySelector('.iframe-video-mob');
@@ -54,9 +50,7 @@ if (playBtn) {
     });
 }
 
-// ================================================
 // FAQ Accordion – optimallashtirilgan versiya
-// ================================================
 document.querySelectorAll('.faq-item').forEach(item => {
     const question = item.querySelector('.faq-question');
     if (!question) return;
@@ -87,10 +81,8 @@ document.querySelectorAll('.faq-item').forEach(item => {
     });
 });
 
-// ================================================
 // Qo'shimcha: sahifa yuklanganda faqat birinchi FAQ ochiq bo'lishini xohlasangiz
 // (ixtiyoriy)
-// ================================================
 document.addEventListener('DOMContentLoaded', () => {
     const firstItem = document.querySelector('.faq-item');
     if (firstItem) {
