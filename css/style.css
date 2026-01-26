@@ -68,6 +68,7 @@ body button {
 
     .header .header_logo img {
         width: 80px;
+        height: 45px;
     }
 
     .header_link {
@@ -111,6 +112,8 @@ body button {
     }
 
     .header_link_button button {
+        width: 50px;
+        height: 50px;
         outline: none;
         padding: 10px 12px;
         background-color: #FFFFFF1A;
@@ -282,6 +285,7 @@ body button {
     .iframe {
         width: 100%;
         margin-top: 25px;
+        min-height: 500px;
     }
 
     .video-container {
@@ -1026,7 +1030,7 @@ body button {
     /* map */
     .map iframe {
         width: 100%;
-        height: 600px;
+        min-height: 600px;
     }
 
     /* footer */
