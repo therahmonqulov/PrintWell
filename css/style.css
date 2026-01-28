@@ -78,17 +78,6 @@ h1,
     font-family: 'Unbounded', 'Unbounded-fallback', system-ui, sans-serif !important;
 }
 
-.header-menu { display: none; }
-.header-menu.active { display: block; }
-
-#headerLinkButton .menu-close { display: none; }
-#headerLinkButton.menu-opened .menu-open  { display: none; }
-#headerLinkButton.menu-opened .menu-close { display: block; }
-
-.hidden {
-  display: none !important;
-}
-
 @media screen and (min-width:210px) and (max-width: 760px) {
     .container {
         width: 90%;
