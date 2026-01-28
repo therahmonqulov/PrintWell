@@ -8,11 +8,6 @@ if (headerButton && headerMenu) {
         if (!e.target.closest('button')) return;
 
         headerMenu.classList.toggle('active');
-        
-        // display ni JS da o'zgartirish o'rniga CSS da boshqarish tavsiya etiladi:
-        // .header-menu.active ~ #headerLinkButton .menu-open  { display: none; }
-        // .header-menu.active ~ #headerLinkButton .menu-close { display: block; }
-        
         // Agar CSS da qilish imkoni bo'lmasa, quyidagi ikki qatorni saqlashingiz mumkin:
         const openBtn  = headerButton.querySelector('.menu-open');
         const closeBtn = headerButton.querySelector('.menu-close');
