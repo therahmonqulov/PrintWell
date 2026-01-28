@@ -28,6 +28,11 @@
     <link rel="preload" href="./css/style.css" as="style" onload="this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="./css/style.css"></noscript>
 
+    <!-- Video posterini oldindan yuklash -->
+    <link rel="preload" as="image" href="./assets/img/video-perevyu-mob.avif" fetchpriority="high">
+    <link rel="preload" as="video" href="./assets/video/YouTub.mp4" fetchpriority="high">
+
+
     <title>PrintWell</title>
 </head>
 <body>
@@ -70,6 +75,7 @@
             </div>
         </section>
     </header>
+    <!-- menu -->
     <section class="header-menu" id="headerMenu">
         <div class="header-menu-link">
             <ul>
@@ -117,9 +123,9 @@
                     <video class="iframe-video" id="myVideo" poster="./assets/img/video-perevyu.avif">
                         <source src="./assets/video/YouTub.mp4" type="video/mp4">
                     </video>
-                    <video class="iframe-video-mob" poster="./assets/img/video-perevyu-mob.avif" fetchpriority="high"
-                        preload="auto" width="310" height="170">
-                        <source src="./assets/video/YouTub.mp4" type="video/mp4">
+                    <video class="iframe-video-mob" poster="./assets/img/video-perevyu-mob.avif" fetchpriority="high" 
+                    preload="metadata" width="310" height="170">
+                    <source src="./assets/video/YouTub.mp4" type="video/mp4">
                     </video>
                     <div class="play-button" id="playBtn">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15" height="15"
@@ -423,15 +429,16 @@
     </section>
     <!-- faq-item -->
     <section class="container faq-section">
-    <div class="faq-left">
+        <div class="faq-left">
             <h2>ЧАСТО ЗАДАВАЕМЫЕ<br>ВОПРОСЫ?</h2>
             <p>
                 PrintWell придерживается принципа надежного партнерства.<br>
                 Мы установили долгосрочное и эффективное сотрудничество с организациями в различных сферах.
             </p>
-    </div>
-    <div class="faq-right">
+        </div>
+        <div class="faq-right">
         <div class="faq-item active">
+
             <div class="faq-question">
                 <h3 style="color: #007CFF;">КАК Я МОГУ СДЕЛАТЬ ЗАКАЗ?</h3>
                 <span class="toggle-icon"><i class="fa-solid fa-plus"></i></span>
@@ -445,7 +452,6 @@
                     </p>
                 </div>
             </div>
-
             <div class="faq-item">
                 <div class="faq-question">
                     <h3>КАКИЕ СПОСОБЫ ОПЛАТЫ ВЫ ПРИНИМАЕТЕ?</h3>
@@ -455,7 +461,6 @@
                     <p>Bu yerda to‘lov usullari haqida yoziladi.</p>
                 </div>
             </div>
-
             <div class="faq-item">
                 <div class="faq-question">
                     <h3>МОЖНО ЛИ ОТМЕНИТЬ ЗАКАЗ?</h3>
@@ -465,7 +470,6 @@
                     <p>Buyurtmani bekor qilish shartlari yoziladi.</p>
                 </div>
             </div>
-
             <div class="faq-item">
                 <div class="faq-question">
                     <h3>СКОЛЬКО ВРЕМЕНИ ЗАНИМАЕТ ДОСТАВКА?</h3>
@@ -475,7 +479,6 @@
                     <p>Dostavka vaqti haqida ma’lumot bo‘ladi.</p>
                 </div>
             </div>
-
             <div class="faq-item">
                 <div class="faq-question">
                     <h3>ЕСТЬ ЛИ ГАРАНТИЯ КАЧЕСТВА?</h3>
@@ -485,8 +488,8 @@
                     <p>Sifat kafolati haqida ma’lumot beriladi.</p>
                 </div>
             </div>
-
         </div>
+
     </section>
     <!-- full-order -->
     <section class="full-order-section">
