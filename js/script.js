@@ -15,17 +15,6 @@
     });
 })();
 
-/*
-CSS da:
-.header-menu { display: none; }
-.header-menu.active { display: block; }
-
-#headerLinkButton .menu-close { display: none; }
-#headerLinkButton.menu-opened .menu-open  { display: none; }
-#headerLinkButton.menu-opened .menu-close { display: block; }
-*/
-
-
 /* =========================
    VIDEO PLAY BUTTON
 ========================= */
@@ -50,14 +39,6 @@ CSS da:
         if (videoText) videoText.classList.add('hidden');
     });
 })();
-
-/*
-CSS da:
-.hidden {
-  display: none !important;
-}
-*/
-
 
 /* =========================
    FAQ ACCORDION
